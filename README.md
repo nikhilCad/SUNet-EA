@@ -1,6 +1,6 @@
 SUNet - https://github.com/FanChiMao/SUNet
 
-External attention - https://github.com/MenghaoGuo/EANet
+External attention - https://github.com/Dootmaan/MT-UNet
 
 ACDC datset - https://drive.google.com/file/d/1x_a8EMFvuPp8-TBVBGsGK9uO4gwVJ8g_/view?usp=sharing
 
