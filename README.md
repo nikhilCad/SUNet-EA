@@ -1,8 +1,17 @@
 SUNet - https://github.com/FanChiMao/SUNet
+
 External attention - https://github.com/MenghaoGuo/EANet
+
 ACDC datset - https://drive.google.com/file/d/1x_a8EMFvuPp8-TBVBGsGK9uO4gwVJ8g_/view?usp=sharing
 
-
+Sunet ke architecture mein MTM add karo external attention ka block laga do
+AC DC dataset na dekar rgb dataset karo
+.npz extension ki image file li hai
+Nikhil Kadiyan: tp iska train dataswt load ho aha usko comment karke cv2.imread
+thrn cv2.imread
+Nikhil Kadiyan: SUNet ka block hatake MTUnit lagado
+Nikhil Kadiyan: Input output har step check karo for debugging
+Nikhil Kadiyan: MLp model
 
 
 
