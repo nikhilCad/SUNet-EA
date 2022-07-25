@@ -2,7 +2,7 @@ clc
 clear 
 close all
 
-file_path = 'ACDC/train/';% 影象資料夾路徑 最後記得加\
+file_path = '/content/ACDC/train/';% 影象資料夾路徑 最後記得加\
 % D:\NCHU\Dataset\Denoise\DIV2K\DIV2K_valid_HR
 img_path_list = dir(strcat(file_path,'*.png'));
 img_num = length(img_path_list);%獲取影象總數量
