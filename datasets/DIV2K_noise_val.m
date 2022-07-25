@@ -2,9 +2,9 @@ clc
 clear 
 close all
 
-file_path = 'D:\NCHU\thesis\Ablation_study\Ablation_dataset\Set5\GT\';% 影象資料夾路徑 最後記得加\
-target_path = 'D:\NCHU\thesis\Ablation_study\Ablation_dataset\Set5\noise_50\';
-input_path = 'D:\PycharmProjects\SUNet-main\datasets\Denoising_DIV2K\test\input\';
+file_path = 'ACDC/valid/';% 影象資料夾路徑 最後記得加\
+target_path = 'Denoising_DIV2K/test/target/';
+input_path = 'Denoising_DIV2K/test/input/';
 img_path_list = dir(strcat(file_path,'*.png'));%獲取該資料夾中所有jpg格式的影象
 img_num = length(img_path_list);%獲取影象總數量
 count = 0;
