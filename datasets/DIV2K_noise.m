@@ -2,7 +2,7 @@ clc
 clear 
 close all
 
-file_path = 'D:\NCHU\Dataset\Denoise\DIV2K\DIV2K_train_HR\';% 影象資料夾路徑 最後記得加\
+file_path = 'ACDC/train/';% 影象資料夾路徑 最後記得加\
 % D:\NCHU\Dataset\Denoise\DIV2K\DIV2K_valid_HR
 img_path_list = dir(strcat(file_path,'*.png'));
 img_num = length(img_path_list);%獲取影象總數量
@@ -26,9 +26,9 @@ if img_num > 0 %有滿足條件的影象
            added_noise = imnoise(C,'gaussian',0,V);
            
            count = count + 1;
-           imwrite(C,strcat('D:\PycharmProjects\SUNet-main\datasets\Denoising_DIV2K\train\target\',num2str(count),'.png'));
+           imwrite(C,strcat('Denoising_DIV2K/train/target/',num2str(count),'.png'));
            % D:\NCHU\1092\Image process\DIV2K\val\target(clean)
-           imwrite(added_noise,strcat('D:\PycharmProjects\SUNet-main\datasets\Denoising_DIV2K\train\input\',num2str(count),'.png'));
+           imwrite(added_noise,strcat('Denoising_DIV2K/train/input/',num2str(count),'.png'));
            % D:\NCHU\1092\Image process\DIV2K\val\input(blur)
        end
        fprintf('Image %d\n', j) ;
