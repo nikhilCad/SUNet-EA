@@ -2,7 +2,7 @@ clc
 clear 
 close all
 
-file_path = 'ACDC/valid/';% 影象資料夾路徑 最後記得加\
+file_path = '/content/ACDC/valid/';% 影象資料夾路徑 最後記得加\
 target_path = 'Denoising_DIV2K/test/target/';
 input_path = 'Denoising_DIV2K/test/input/';
 img_path_list = dir(strcat(file_path,'*.png'));%獲取該資料夾中所有jpg格式的影象
