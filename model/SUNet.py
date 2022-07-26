@@ -501,7 +501,7 @@ class MTUNet(nn.Module):
         x = self.SegmentationHead(x)
         return x
 
- configs = {
+configs = {
     "win_size": 4,
     "head": 8,
     "axis": [28, 16, 8],
