@@ -34,7 +34,7 @@ OPT = opt['OPTIM']
 
 ## Build Model
 print('==> Build the model')
-model_restored = SUNet_model(opt)
+model_restored = MTUNet(opt)
 p_number = network_parameters(model_restored)
 model_restored.cuda()
 
