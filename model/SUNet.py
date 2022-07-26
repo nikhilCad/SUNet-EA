@@ -501,7 +501,15 @@ class MTUNet(nn.Module):
         x = self.SegmentationHead(x)
         return x
 
-    
+ configs = {
+    "win_size": 4,
+    "head": 8,
+    "axis": [28, 16, 8],
+    "encoder": [256, 512],
+    "bottleneck": 1024,
+    "decoder": [1024, 512],
+    "decoder_stem": [(256, 512), (256, 256), (128, 64), 32]
+}   
     
     
     
